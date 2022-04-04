@@ -35,13 +35,13 @@ function closeNav() {
 
 /*---------------------popup video switch-----------------*/
 function popupOn() {
-  document.getElementById("popupVideo").style.width = "100%";
+  document.getElementById("popupVideo").style.display = "inline";
   document.getElementById("popupVideo").style.opacity = "1";
   document.getElementById("mainvideo").style.opacity = "1";
 }
 
 function closePopupOn() {
-  document.getElementById("popupVideo").style.width = "0";
+  document.getElementById("popupVideo").style.display = "none";
   document.getElementById("popupVideo").style.opacity = "0";
   document.getElementById("mainvideo").style.opacity = "0";
 }
