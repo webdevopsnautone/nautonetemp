@@ -24,14 +24,14 @@ function closeNav() {
     })
 
  //--------------------------------------------hide navbar----//
-    $(window).scroll(function() {
-    if ($(window).scrollTop() > 700) {
+  //  $(window).scroll(function() {
+   // if ($(window).scrollTop() > 700) {
         // We are at the top of the page and want to remove the class
-        $('#navbar').removeClass('fixed-top');
-    } else {
-        $('#navbar').addClass('fixed-top');
-    }
-});
+      //  $('#navbar').removeClass('fixed-top');
+  //  } else {
+     //   $('#navbar').addClass('fixed-top');
+   // }
+//});
 
 /*---------------------popup video switch-----------------*/
 function popupOn() {
