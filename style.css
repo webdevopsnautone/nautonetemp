@@ -959,6 +959,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 {
 	color: white;
 	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1em;
 	border-left: 5px solid #ffcf0b;
 	padding-left: 5px;
