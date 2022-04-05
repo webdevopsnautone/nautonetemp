@@ -953,8 +953,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 {
 	margin-top: 1.5em;
 	margin-left: 1em;
+	font-family: 'Montserrat', sans-serif;
 }
-
+.footer-links p
+{
+	font-family: 'Montserrat', sans-serif;
+}
 .footer-links p a
 {
 	color: white;
